@@ -1,0 +1,34 @@
+.file-upload {
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+input[type="file"],
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}

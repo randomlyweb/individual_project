@@ -1,0 +1,76 @@
+/* App.css */
+.teacher-panel {
+  padding: 20px;
+}
+
+.blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.block-card {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.block-card h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.view-work-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.view-work-link:hover {
+  background-color: #218838;
+}
+
+.block-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.file-hash-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.file-hash {
+  word-wrap: break-word; /* Разбиваем хеш по словам, если он длинный */
+  overflow-wrap: break-word; /* Разрываем строки по словам */
+  white-space: pre-wrap; /* Сохраняем пробелы и переносы */
+  word-break: break-all; /* Если строка не помещается, она будет разбиваться */
+  font-size: 14px;
+  color: #333;
+}
